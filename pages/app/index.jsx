@@ -14,15 +14,15 @@ const App = () => {
   const [spinning, setSpinning] = useState(false);
   const [tip, setTip] = useState(false);
   const [inputOptions, setInputOptions] = useState("-i");
-  const [outputOptions, setOutputOptions] = useState("");
+  const [outputOptions, setOutputOptions] = useState("-ac 1 -ar 8000 -b:a 24k");
   const [files, setFiles] = useState("");
   const [outputFiles, setOutputFiles] = useState([]);
   const [href, setHref] = useState("");
   const [file, setFile] = useState();
   const [fileList, setFileList] = useState([]);
   const [name, setName] = useState("input.mp4");
-  const [output, setOutput] = useState("output.mp4");
-  const [downloadFileName, setDownloadFileName] = useState("output.mp4");
+  const [output, setOutput] = useState("output.aac");
+  const [downloadFileName, setDownloadFileName] = useState("output.aac");
   const ffmpeg = useRef();
   const currentFSls = useRef([]);
 
