@@ -14,7 +14,7 @@ const App = () => {
   const [spinning, setSpinning] = useState(false);
   const [tip, setTip] = useState(false);
   const [inputOptions, setInputOptions] = useState("-i");
-  const [outputOptions, setOutputOptions] = useState("-ac 1 -ar 8000 -b:a 24k");
+  const [outputOptions, setOutputOptions] = useState("-ac 1 -ar 16000 -b:a 24k");
   const [files, setFiles] = useState("");
   const [outputFiles, setOutputFiles] = useState([]);
   const [href, setHref] = useState("");
