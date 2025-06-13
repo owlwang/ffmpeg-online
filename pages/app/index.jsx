@@ -21,8 +21,8 @@ const App = () => {
   const [file, setFile] = useState();
   const [fileList, setFileList] = useState([]);
   const [name, setName] = useState("input.mp4");
-  const [output, setOutput] = useState("output.aac");
-  const [downloadFileName, setDownloadFileName] = useState("output.aac");
+  const [output, setOutput] = useState("output.mp3");
+  const [downloadFileName, setDownloadFileName] = useState("output.mp3");
   const ffmpeg = useRef();
   const currentFSls = useRef([]);
 
